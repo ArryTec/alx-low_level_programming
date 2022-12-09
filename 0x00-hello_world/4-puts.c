@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
  * main - main block
- * return: 0
+ * return: o
  */
-
 int main(void)
 
 {
