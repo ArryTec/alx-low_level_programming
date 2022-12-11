@@ -3,8 +3,8 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: prints all single digit number in base 10
- * starting from 0, follows by new line
+ * Description: prints all single digit number of base 10
+ * starting from 0, followed by new line
  */
 int main(void)
 {
