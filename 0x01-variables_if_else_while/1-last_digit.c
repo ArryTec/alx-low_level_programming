@@ -10,7 +10,7 @@
  *    */
 
 int main(void)
-(
+{
 	 int n;
 	 int num;
 
@@ -20,7 +20,7 @@ int main(void)
 	 num = n % 10;
 	 if (num > 5)
 	 {
-	         printf("%d and is greater thanm 5\n", num);
+	        printf("%d and is greater thanm 5\n", num); 
 	 }
 	 else if ((num < 6) && (num < 0))
 	 {
@@ -31,4 +31,4 @@ int main(void)
 	          printf("%d and 0\n", num);
 	 }
 	 return (0);
-)
+}
