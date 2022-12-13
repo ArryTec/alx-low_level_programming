@@ -18,28 +18,28 @@
  */
 int main(void)
 {
-	int c;
-	int d = 0;
+	int num1, num2;
 
-	while (d < 10)
-	{
-        	c = 0;
-		while (d < 10)
-		{
-			if (d != c && d < c)
+	num1 = 48;
+	num2 = 48;	
+	
+	while (num1 < 58)
+        {
+        	num2 = 48;
+		while (num2 < 58)
+                {
+			if (num1 != num2 && num1 < num2)
 			{
-				putchar('0' + d);
-				putchar('0' + c);
-
-				if (c + d != 17)
-				{
-					putchar(',');
-					putchar(' ');
-				}	
-			}
-			c++;
+		        	putchar(num1);
+				putchar(num2);
+				if (num1 == 56 && num2 == 57)
+					break;
+				putchar(',');
+		        	putchar(' ');		
+		        }
+			num2++;
 		}
-		c++;
+		num1++;
 	}
 	putchar('\n');
 	return (0);
