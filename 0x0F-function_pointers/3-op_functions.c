@@ -1,6 +1,3 @@
-#include <stddef.h>
-#include <string.h>
-#include "3-calc.h"
 
 /**
  * op_add - compute sum of two ints
